@@ -27,6 +27,8 @@ class ColumnsStore {
 
     @action
     addCard = (text, colIndex) => {
+        if (text === '')
+            return;
         this.columns[colIndex].cards.push(text);
     }
 

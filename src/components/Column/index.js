@@ -10,10 +10,6 @@ import "./Column.css";
 @observer
 class Column extends React.Component {
 
-    componentDidMount() {
-        // console.log(this.props.cards);
-    }
-
     render() {
         const provided = this.props.provided;
         const colIndex = this.props.colIndex;

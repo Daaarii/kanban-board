@@ -7,7 +7,6 @@
     background: #DFE3E6;
     margin-right: 12px;
     border-radius: 3px;
-    /* overflow: hidden; */
 }
 
 .column-items {
@@ -25,8 +24,9 @@
 }
 
 .column__bottom {
-    padding: 12px 12px 12px 12px;
+    display: flex;
     align-items: center;
+    padding: 12px 12px 12px 12px;
     border-radius: 3px;
     color: #6B808C;
     background: #DFE3E6;
